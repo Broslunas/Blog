@@ -4,9 +4,7 @@ import FormattedDate from '@/components/FormattedDate'
 import ArrowUp from '@/components/icons/ArrowUp'
 
 const {
-	id,
 	data: { title, description, pubDate, heroImage, category },
-	readTime,
 	slug
 } = Astro.props
 ---
@@ -19,7 +17,7 @@ const {
 			height={200}
 			format='webp'
 			class='h-full min-w-full object-cover hover:scale-[101%] transition-all duration-200 rounded-[2px]'
-			alt={`img of ${title}`}
+			alt={`Banner de ${title}`}
 		/>
 
 		<div class='z-30 absolute bottom-0 w-full h-20'>
@@ -27,9 +25,7 @@ const {
 			<div class='flex items-center justify-between gap-x-1 text-white px-6 py-4'>
 				<div class='flex flex-col gap-1 items-center justify-center'>
 					<FormattedDate date={pubDate} />
-					<span class='text-sm'> {readTime}</span>
 				</div>
-
 				<span class='pb-4'>{category}</span>
 			</div>
 		</div>
