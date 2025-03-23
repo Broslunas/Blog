@@ -7,7 +7,7 @@
 	"license": "GPL-3.0-only",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Broslunas0/blog"
+		"url": "https://github.com/Broslunas/blog"
 	},
 	"keywords": [
 		"astro",
@@ -17,7 +17,7 @@
 		"astro-b"
 	],
 	"bugs": {
-		"url": "https://github.com/Broslunas0/blog/issues"
+		"url": "https://github.com/Broslunas/blog/issues"
 	},
 	"scripts": {
 		"dev": "astro dev",
